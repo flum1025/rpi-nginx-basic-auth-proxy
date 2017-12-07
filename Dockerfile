@@ -1,6 +1,8 @@
-from nginx:1.9
+FROM tobi312/rpi-nginx
 
-MAINTAINER kei-sato@meeetol.com
+MAINTAINER flum1025 <flum.1025@gmail.com>
+
+RUN useradd --no-create-home nginx
 
 # install .htpasswd
 RUN apt-get update && apt-get install -y apache2-utils && apt-get clean
