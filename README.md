@@ -1,6 +1,6 @@
 # rpi-nginx-basic-auth-proxy
 
-Source repo: [nginx-basic-auth-proxy](https://github.com/kei-sato/nginx-basic-auth-proxy)
+Source repo: [kei-sato/nginx-basic-auth-proxy](https://github.com/kei-sato/nginx-basic-auth-proxy)
 
 image: [flum1025/rpi-nginx-basic-auth-proxy](https://hub.docker.com/r/flum1025/rpi-nginx-basic-auth-proxy/)
 
